@@ -1,0 +1,27 @@
+<!-- Secciones Menu -->
+<div class="navbar-nav">
+  <div class="nav-item dropdown" dropdown #dropdown="bs-dropdown"
+       [autoClose]="true">
+
+    <a id="navdrop" dropdownToggle role="button"
+       class="nav-link dropdown-toggle"
+       aria-controls="dropdown-basic">Secciones</a>
+
+    <ul id="dropdown-triggers-manual" *dropdownMenu class="dropdown-menu"
+        role="menu" aria-labelledby="button-triggers-manual">
+
+     
+
+      <!-- DIVIDER-->
+      <li class="divider dropdown-divider"></li>
+      <!-- MENU ITEM-->
+      <li role="menuitem">
+        <a class="dropdown-item " routerLink="/view/" *ngIf="showInMenu >= 0">
+          <fa-icon [icon]="faLaptop"></fa-icon> &nbsp; Vistas
+        </a>
+      </li>
+
+
+    </ul>
+  </div>
+</div>

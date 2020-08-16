@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./app.scss";
+
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+// ... or
+@import "~@swimlane/ngx-datatable/index.css";
+@import "~@swimlane/ngx-datatable/themes/material.scss";
+@import "~@swimlane/ngx-datatable/assets/icons.css";
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
